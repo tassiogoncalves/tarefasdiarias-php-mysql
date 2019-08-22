@@ -1,5 +1,7 @@
 # Siatema de Tarefas Didático com PHP e MySQL (MariaDB)
 
+![DER - Tarefas Diárias](https://github.com/tassiogoncalves/tarefasdiarias-php-mysql/blob/master/Banco%20de%20Dados/tarefasdiarias.png)
+
 ## Conteúdo do Sistema
 * Cadastro do Usuário Padrão
 * Cadastro de tarefas com categorias
@@ -11,14 +13,15 @@
 * Categoria das Tarefas
 
 ## Usuários Cadastrados na Base
+* **Usuário 1**
 * Email: admin@gmail.com
 * Senha: admin
 * Perfil: Administrador (cod = 1)
-
+* **Usuário 2**
 * E-mail: teste@gmail.com
 * Senha: 123
 * Perfil: Usuário Padrão (cod = 2)
-
+* **Usuário 3**
 * E-mail: tassio@gmail.com
 * Senha: 123
 * Perfil: Usuário Padrão (cod = 2)
