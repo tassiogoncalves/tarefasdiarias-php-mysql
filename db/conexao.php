@@ -5,8 +5,8 @@ $senha      = "";
 $usuario    = "root";
 $banco      = "tarefasdiarias";
 $site       = "127.0.0.1/tarefasdiarias/";
-
 $con = mysqli_connect($servidor,$usuario,$senha,$banco);
+mysqli_set_charset ( $con , 'utf8' );
 // Check connection
 if (mysqli_connect_errno())
   {
