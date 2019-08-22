@@ -35,3 +35,8 @@
 * Escola (cod = 2)
 * Estágio (cod = 3)
 * Compra (cod = 4)
+
+## Deixe Seus Comentários
+https://tassiogoncalves.com.br/sistema-didatico-de-tarefas-diarias-com-php-e-mysql-mariadb/
+
+**Instagram:** *@tassiogoncalvesg*
