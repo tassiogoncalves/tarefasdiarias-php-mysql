@@ -26,7 +26,7 @@
 * Senha: 123
 * Perfil: Usuário Padrão (cod = 2)
 
-## Perfils Cadastrados na Base
+## Perfis Cadastrados na Base
 * Administrador (cod = 1)
 * Usuário Padrão (cod = 2)
 
