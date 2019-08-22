@@ -1,6 +1,6 @@
 # Siatema de Tarefas Didático com PHP e MySQL (MariaDB)
 
-![DER - Tarefas Diárias](https://github.com/tassiogoncalves/tarefasdiarias-php-mysql/blob/master/Banco%20de%20Dados/DER - Tarefas Diárias.png)
+![DER - Tarefas Diárias](https://github.com/tassiogoncalves/tarefasdiarias-php-mysql/blob/master/Banco%20de%20Dados/DER%20-%20Tarefas%20Di%C3%A1rias.png?raw=true)
 
 ## Conteúdo do Sistema
 * Cadastro do Usuário Padrão
