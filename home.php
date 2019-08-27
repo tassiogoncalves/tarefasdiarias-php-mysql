@@ -10,7 +10,14 @@
     if($_SESSION['perfil'] != 1){
         $sql = "SELECT *, t.cod as codt FROM tarefas t where usuario_cod = $cod AND (titulo like '%$busca%' OR descricao like '%$busca%') order by data, hora asc";
     }else{
-        $sql = "SELECT *, u.cod as codu, t.cod as codt FROM tarefas t, usuario u where t.usuario_cod = u.cod  AND (titulo like '%$busca%' OR descricao like '%$busca%') order by data, hora asc";
+        $sql = "SELECT *, u.cod as codu, t.cod as codt 
+        FROM tarefas t, usuario u 
+        where 
+        t.usuario_cod = u.cod  AND 
+        (titulo like '%$busca%' OR 
+        descricao like '%$busca%' OR 
+        u.nome like '%$busca%') 
+        order by data, hora asc";
     }
     $result_tarefas = mysqli_query($con, $sql);
 ?>
@@ -29,7 +36,7 @@
         <input type="text" name="busca" placeholder="Digite para buscar">
         <button>ir</button>
     </form>
-    <table border="1">
+    <table>
         <tr>
         <?php 
             if($_SESSION['perfil'] == 1){

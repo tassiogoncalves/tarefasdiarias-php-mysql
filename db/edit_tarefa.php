@@ -19,7 +19,7 @@ $sql = "UPDATE tarefas SET
             WHERE
             cod = $cod_usuario
         ";
-echo $sql;
+//echo $sql;
 $resultado = mysqli_query($con, $sql);
 
 if($resultado == true){
