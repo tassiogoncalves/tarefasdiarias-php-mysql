@@ -31,5 +31,4 @@
             }
         }
     </script>
-</body>
-</html>
+<?php require_once "footer.php"; ?>

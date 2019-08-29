@@ -34,5 +34,4 @@
         <textarea name="descricao" id="" cols="30" rows="10"></textarea> <br>
         <button>Cadastrar</button>
     </form>
-</body>
-</html>
+    <?php require_once "footer.php"; ?>

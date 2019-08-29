@@ -19,31 +19,34 @@ if(isset($_GET['erro'])){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sistema de Tarefas</title>
-    <style>
-        #error{
-            color: red;
-
-        }
-        a{
-            
-        }
-        button{
-            background: blue;
-            color: white;
-            box-shadow: 1px 1px 5px;
-        }
-    </style>
+    <link rel="stylesheet" href="assets/materialize/css/materialize.min.css">
 </head>
 <body>
-    <h3>Login</h3>
-    <form action="db/verifica_login.php" method="post">
+    <main class="container">
+    
+    <form action="db/verifica_login.php" method="post" class="row">
+        <div class="col offset-m3 m6 s12">
+            <h3 class="indigo-text">Login</h3>
+        </div>
         
-        <input type="text" name="login"> <br>
-        <input type="password" name="senha"> <br>
-        <span id="error"><?php echo $erro; ?></span> <br>
-        <button>Enviar</button>
+        <div class="input-field col offset-m3 m6 s12">
+            <input type="text" name="login" id="login">
+            <label for="login">E-mail</label>            
+        </div>
+        <div class="input-field col offset-m3 m6 s12">
+            <input type="password" name="senha" id="senha">
+            <label for="senha">Senha</label>   
+        </div>
+        <div class="input-field col offset-m3 m6 s12">
+            <span id="error"><?php echo $erro; ?></span> <br>
+            <button class="waves-effect waves-light btn indigo darken-4">Enviar</button> 
+            <div class="divider"></div>
+            <a href="cadastro.php">Cadastre-se</a>
+        </div>
       
     </form>
-    <a href="cadastro.php">Cadastre-se</a>
+    
+    </main>
+    <script src="assets/materialize/js/materialize.min.js"></script>
 </body>
 </html>

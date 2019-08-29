@@ -48,5 +48,4 @@
         <textarea name="descricao" id="" cols="30" rows="10"><?= $tarefa['descricao']?></textarea> <br>
         <button>Salvar</button>
     </form>
-</body>
-</html>
+    <?php require_once "footer.php"; ?>
