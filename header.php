@@ -32,11 +32,14 @@
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="assets/materialize/css/materialize.min.css">
+
  
 </head>
 <body>
     <nav>
-    <div class="nav-wrapper indigo">
+    <?php     if($_SESSION['perfil'] != 1){ $cor = 'blue';}else{$cor = 'indigo';}?>
+
+    <div class="nav-wrapper <?=$cor?>">
         <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <a href="#" class="brand-logo">Sistema de Tarefas</a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
