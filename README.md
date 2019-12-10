@@ -40,3 +40,9 @@
 https://tassiogoncalves.com.br/sistema-didatico-de-tarefas-diarias-com-php-e-mysql-mariadb/
 
 **Instagram:** *@tassiogoncalvesg*
+
+#Vídeos Construindo o Sistema
+##Criando Sistema Completo para Controle de Tarefas Diárias com PHP e MySQL (MariaDB) - Parte 1 / 4
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/_41iGwn0unM/0.jpg)](https://www.youtube.com/watch?v=_41iGwn0unM)
+
+
