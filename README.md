@@ -46,14 +46,25 @@ https://tassiogoncalves.com.br/sistema-didatico-de-tarefas-diarias-com-php-e-mys
 
 !["Criando Sistema Completo para Controle de Tarefas Diárias com PHP e MySQL (MariaDB) - Parte 1 / 4"](https://img.youtube.com/vi/_41iGwn0unM/0.jpg)
 
-[Acessar o vídeo](https://www.youtube.com/watch?v=_41iGwn0unM){:target="_blank"}
+[Acessar o vídeo](https://www.youtube.com/watch?v=_41iGwn0unM)
 
 ## Criando Sistema Completo para Controle de Tarefas Diárias com PHP e MySQL (MariaDB) - Parte 2 / 4
 
 !["Criando Sistema Completo para Controle de Tarefas Diárias com PHP e MySQL (MariaDB) - Parte 2 / 4"](https://img.youtube.com/vi/_41iGwn0unM/0.jpg)
-[Acessar o vídeo](https://www.youtube.com/watch?v=7RU4AyE0uYE){:target="_blank"}
+[Acessar o vídeo](https://www.youtube.com/watch?v=7RU4AyE0uYE)
 
-<a href="https://www.youtube.com/watch?v=7RU4AyE0uYE" target="_blank">Acessar o vídeo</a>
+## Criando Sistema Completo para Controle de Tarefas Diárias com PHP e MySQL (MariaDB) - Parte 2 / 4
+
+!["Criando Sistema Completo para Controle de Tarefas Diárias com PHP e MySQL (MariaDB) - Parte 2 / 4"](https://img.youtube.com/vi/_41iGwn0unM/0.jpg)
+[Acessar o vídeo](https://www.youtube.com/watch?v=7RU4AyE0uYE)
+
+## Criando Sistema Completo para Controle de Tarefas Diárias com PHP e MySQL (MariaDB) - Parte 3 / 4
+
+!["Criando Sistema Completo para Controle de Tarefas Diárias com PHP e MySQL (MariaDB) - Parte 3 / 4"](https://img.youtube.com/vi/p1RKlg93jh8/0.jpg)
+[Acessar o vídeo](https://www.youtube.com/watch?v=p1RKlg93jh8)
 
 
+## Sistema Completo para Controle de Tarefas Diárias - Estilizando com MaterializeCSS - Parte 4 / 4
 
+!["Sistema Completo para Controle de Tarefas Diárias - Estilizando com MaterializeCSS - Parte 4 / 4"](https://img.youtube.com/vi/LBoE9FklfMw/0.jpg)
+[Acessar o vídeo](https://www.youtube.com/watch?v=LBoE9FklfMw)
