@@ -15,8 +15,8 @@
 <body>
 <?php  require_once("header.php");?>
 
-    <h3>Cadastro de Tarefa</h3>
-    <form action="db/cad_tarefa.php" method="post">
+    <h3 class="container">Cadastro de Tarefa</h3>
+    <form action="db/cad_tarefa.php" method="post" class="container">
         Título:   
         <input type="text" name="titulo"> <br>
         Data: 
@@ -24,12 +24,14 @@
         Hora: 
         <input type="time" name="hora"> <br>
         Categoria:
-        <select name="categoria" id="">
-        <?php 
-        foreach($result_cat as $dados){ ?>   
-            <option value="<?php echo $dados['cod']?>"><?php echo $dados['nome']?></option>
-        <?php } ?>
-        </select> <br>
+        <div class="input-field">
+            <select name="categoria" class="browser-default">
+            <?php 
+            foreach($result_cat as $dados){ ?>   
+                <option value="<?php echo $dados['cod']?>"><?php echo $dados['nome']?></option>
+            <?php } ?>
+            </select> 
+        </div><br>
         Descrição: 
         <textarea name="descricao" id="" cols="30" rows="10"></textarea> <br>
         <button>Cadastrar</button>

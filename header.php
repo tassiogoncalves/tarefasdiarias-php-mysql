@@ -43,6 +43,9 @@
         <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <a href="#" class="brand-logo">Sistema de Tarefas</a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="categorias.php">Categorias</a></li>
+
+        <li><a href="cadastro_categoria.php">Cadastrar Categoria</a></li>
             <li><a href="cadastro_tarefa.php">Cadastrar Tarefa</a></li>
             <li><a href="home.php">Listar Tarefas</a> </li>
             <li><a href="db/sair.php">Sair</a></li>
